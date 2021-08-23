@@ -26,7 +26,7 @@ mess_dropout = [0.0,0.0,0.0]
 layer_size = [64,64,64]
 regs = [1e-5]
 Ks = [20, 40, 60, 80, 100]
-verbose = 1
+verbose = 
 
 args = {'device':device,'verbose':verbose,'adj_type':'single', #symetric
            'batch_size':batch_size, 'embed_size':embed_size,
